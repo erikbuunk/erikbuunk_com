@@ -19,4 +19,4 @@ defaults:
       layout: "default"
 
 url: erikbuunk.github.io
-  baseurl: /erikbuunk_com
+baseurl: /erikbuunk_com
