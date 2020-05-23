@@ -17,6 +17,3 @@ defaults:
       path: ""
     values:
       layout: "default"
-
- url: erikbuunk.github.io
-   baseurl: /erikbuunk_com
