@@ -1,0 +1,124 @@
+- start: 2020
+  end: 2021
+  study: Data Science Certificate
+  institute: Harvard Extension School
+  description: >
+    Four data science course on Graduate Level consisting of:
+      • Elements of Data Science and Statistical Learning with R
+      • Intro to Artificial Intelligence with Python
+      • Data Modeling
+      • Text Analytics and Natural Language Processing
+  show: true
+- start: 2021
+  study: Intro to Artificial Intelligence with Python
+  institute: Harvard Extension School
+  description: >
+    Concepts and algorithms that are the foundation of modern artificial intelligence, with technologies like game-playing engines, handwriting recognition, and machine translation.
+  show: false
+- start: 2020
+  study: Data Modeling
+  institute: Harvard Extension School
+  description: Data modeling methodologies with the goal of understanding how to choose, apply, and interpret appropriate statistical designs and analyses for practical data problems.
+  show: false
+- start: 2020
+  study: Text Analytics and Natural Language Processing
+  institute: Harvard Extension School
+  description: An application-focused overview of the field from tokenization to state-of-the-art models such as Recurrent Neural Networks and Transformers
+  show: false
+- start: 2020
+  study: Elements of Data Science and Statistical Learning with R
+  institute: Harvard Extension School
+  description: The fundamentals of statistical testing and learning including linear and non- linear regression, clustering and classification, neural networks, support vector machines, and decision trees.
+  show: false
+- start: 2019
+  study: Instructor lead Workshops​ (0.5 day each)
+  institute: Harvard University Training (internal)
+  description: >
+    ​• Python web APIs workshop (November 2019)
+    • Visual eloquence: data visualization with Tableau​ (October 2019)
+    • Design principles for data visualizations​ (October 2019)
+    ​• Python Web Scraping​ (September 2019)
+  show: false
+- start: 2014
+  study: Professional Scrum Product Owner
+  institute: Kuzidi
+  description: "Certificate: PSPO1"
+- start: 2012
+  end: 2020
+  study: Several online courses
+  institute: EdX, Coursera, Udacity
+  description: >
+    • Data science: Inference and Modeling (2019, EdX)
+    • Data science probability​ (2019, EdX)
+    ​• Data science visualization (2019, EdX)
+    • Image and video processing (2013, Duke Univ.)
+    • Digital Sound Design (2013)
+    • Introduction to Digital Sound Design (2013, Emory Univ.)
+    • Creative Programming for Digital Media & Mobile Apps (2013, London Univ.)
+    • Human-Computer Interaction (2012, Univ. of California)
+    • Machine Learning (2012, Stanford Univ.)
+    • Intro to iOS App Development with Swift (Udacity)
+    • Programming Foundations with Python (Udacity)
+    • UIKit Fundamentals (Udacity)
+  show: true
+- start: 2014
+  study: LEAN Six Sigma
+  institute: Lean Six Sigma Company
+  description: Certified Green Belt
+  show: true
+- start: 2012
+  study: LEAN Six Sigma - Yellow Belt
+  institute: Amersfoort Academy
+  show: false
+- start: 2012
+  study: Prince 2 (recap)
+  institute: Insights
+  show: true
+- start: 2010
+  study: Business Information Services Library (BiSL)
+  institute: IT management
+  show: true
+- start: 2009
+  study: Introduction to Change Management
+  institute: Amersfoort Academy
+  show: true
+- start: 2009
+  study: Enterprise Architecture
+  institute: Amersfoort Academy
+  show: true
+- start: 2008
+  study: Data Exchange and Privacy
+  institute: Elsevier Seminars
+  show: true
+- start: 2008
+  study: Influencing Skills
+  institute: Amersfoort Academy
+  show: false
+- start: 2007
+  study: Prince2 Foundation
+  institute: ISES International
+  description: "Certificate: Prince 2 Foundation"
+- start: 2007
+  study: Advice quality
+  institute: Puliek Domein
+  show: false
+- start: 2003
+  study: Communication with the customer
+  institute: &CO
+  show: false
+- start: 2000
+  study: Project Management
+  institute: ISIS Benelux BV
+  show: false
+- start: 1998
+  study: Geographical Information Systems (Post doctoral course)
+  institute: Utrecht University
+  show: false
+- start: 1996
+  study: Computer courses
+  institute: different institutes
+  show: false
+- start: 2010
+  institute: Cervantes
+  study: Spanish (B1)
+  show: false

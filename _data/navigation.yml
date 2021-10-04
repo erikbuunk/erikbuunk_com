@@ -1,8 +1,10 @@
-- name: Home
-  link: /
+- name: Resume
+  link: /resume.html
+- name: Portfolio
+  link: /portfolio.html
+- name: Projects
+  link: /projects.html
+# - name: Blog
+#   link: /blog.html
 - name: About
   link: /about.html
-- name: Blog
-  link: /blog.html
-- name: Staff
-  link: /staff.html

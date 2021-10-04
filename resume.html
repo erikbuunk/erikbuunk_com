@@ -1,0 +1,107 @@
+---
+title: Resume
+layout: default
+---
+
+
+<div class="row">
+    <div class="col-md-8">
+        <h1 class="name">Erik Buunk</h1>
+        <h2 class="function">Consultant &<br /> Data Scientist</h2>
+    </div>
+    <div class="col-md-4">
+        <h3>Contact</h3>
+        {% for item in site.data.contact %}
+
+        <h5 class="function"><i class="{{item.icon}}"></i>&nbsp;&nbsp;{{item.name}}</h5>
+
+        <p>{{item.value}}</p>
+        {% endfor %}
+    </div>
+</div>
+
+
+
+<h3 class="first">Keywords</h3>
+
+<div class="keywords">
+
+    {% for word in site.data.keywords %}
+    <p class="keyword">{{word}}</p>
+    {% endfor %}
+</div>
+
+
+
+
+<h3>Experience</h3>
+
+{% for work in site.data.work %}
+{% if work.show != false %}
+<div class="row">
+    <div class="col-md-4">
+        <h5>
+            <!-- <a href="https://{{work.company_link}}" target="_blank"> -->
+            {{work.company}}
+            <!-- </a> -->
+        </h5>
+        <p class="experience-period">{{work.start}} - {{work.end}}</p>
+    </div>
+    <div class="col-md-8">
+        <h5 class="function">{{work.title}}</h5>
+        <p>{{work.description}}</p>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h3>Education</h3>
+
+{% for item in site.data.education %}
+{% if item.show != false %}
+<div class="row">
+    <div class="col-md-4">
+        <h5>{{item.institute}}</h5>
+        <p class="experience-period">{{item.start}} - {{item.end}}</p>
+    </div>
+    <div class="col-md-8">
+        <h5 class="function">{{item.study}}</h5>
+        <p>{{item.description}}</p>
+    </div>
+</div>
+{% endif %}
+{% endfor %}
+
+<h3>Professional Training & Certifications</h3>
+{% for item in site.data.training %} {% if item.show != false %}
+<div class="row">
+    <div class="col-md-4">
+        <h5>{{item.institute}}
+
+        </h5>
+    </div>
+    <div class="col-md-8">
+        <div>
+
+
+            <span class="function">{{item.study}}</span>
+            <span class="experience-period">
+                ({{item.start}}{% if item.end.size > 1 %} - {{item.end}}{% endif %})
+            </span>
+        </div>
+        <p>{{item.description}}</p>
+    </div>
+</div>
+{% endif %} {% endfor %}
+
+<h3>Language</h3>
+{% for item in site.data.languages %} {% if item.show != false %}
+<div class="row">
+    <div class="col-md-4">
+        <h5>{{item.icon}}&nbsp;{{item.label}}</h5>
+    </div>
+    <div class="col-md-8">
+        <p>{{item.level}}</p>
+    </div>
+</div>
+{% endif %} {% endfor %}

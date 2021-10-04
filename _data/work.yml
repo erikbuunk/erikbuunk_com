@@ -1,0 +1,86 @@
+- start: 2021
+  end: now
+  title: Project and Data Science Officer
+  company: Max Planck Society (Munich, Germany)
+  company_link: https://www.ip.mpg.de/en/
+  department: Institute for Innovation and Competition
+  description: >
+    Responsible for research data management, reproducibility, licenses and project management.
+- start: 2019
+  end: 2021
+  title: Consultant/Project Manager/Fellow
+  company: Harvard University (MA, USA)
+  company_link: iq.harvard.edu
+  department: IQSS (Institute for Quantitative Social Sciences)
+  description: >
+    Working at the Institute for Quantitatve Social Sciences on
+    Scientific Programs as well as being engaged in Data Science research.
+    I am involved in various projects where I have, so far, played the role of
+    high level project manager, business consultant as well as data analyst.
+- start: 2016
+  end: 2019
+  title: Information management consultant
+  company_link: www.vru.nl
+  company: Security Region Utrecht (NL)
+  department: Informatiemanagement en ICT
+  description: >
+    Regional fire department and crisis management center.
+    In this organization, my responsibilities included account, network and information management, development of business intelligence, and project management.
+- start: 2011
+  end: 2016
+  title: Senior IT Consultant
+  company: Municipality of Amersfoort (NL)
+  company_link: www.amersfoort.nl
+  department: IT
+  description: >
+    Working as IT consultant and project manager. Also worked as external consultant.
+- start: 2011
+  end: 2007
+  title: Information Consultant/Project manager Social Services
+  company: Municipality of Amersfoort (NL)
+  company_link: www.amersfoort.nl
+  department: ....
+  description: >
+    Consultant IT, responsible for managing IT-changes, project manager, advisor of management for the department of Social Services.
+- start: 2007
+  end: 2006
+  title: GIS Engineer/Developer
+  company: Municipality of Amersfoort (NL)
+  company_link: www.amersfoort.nl
+  description: >
+    Development, implementation and user support of geographical viewer. Consultancy and co-ordination of geographical IT-projects.
+- start: 2005
+  end: 2006
+  title: Consultant
+  company: Bentley Systems/ISIS Benelux BV (NL)
+  company_link: www.bentley.com/en
+  description: >
+    Implementation and design of Geographical Information Systems (GIS) at various clients, consultancy, product demonstrations during pre-sales, programming, teaching, project management.
+- start: 1998
+  end: 2006
+  title: Consultant
+  company: Bentley Systems/ISIS Benelux BV (NL)
+  description: NEEDS TRANSLATING Implementeren en ontwerpen van GIS-systemen bij gemeenten. Demonstreren en adviseren aan klanten tijdens het verkooptraject. Ondersteunen van klanten op locatie en op afstand. Incidenteel doceren, programmeren en leiden van projecten.
+  show: false
+- start: 1996
+  end: 1998
+  title: Applications Designer
+  company: Holland Railconsult (NL)
+  description: NEEDS TRANSLATING Opstellen van softwarespecificaties, databaseontwerp en programmeren van applicaties en leiden van projecten.
+  show: false
+- start: 1996
+  end: 1996
+  title: Trainer Microsoft Office
+  company: Randstad Training Center
+  show: false
+- start: 1996
+  end: 1996
+  company: TNO-Voeding, afdeling Milieutoxicology (NL)
+  title: Research internal, Master's thesis
+  description: NEEDS TRANSLATING  Onderzoek naar toepasbaarheid van toxicologische karakteriserings-methodes toegepast op zeewater en havensediment.
+  show: false
+- start: 1992/1994
+  company: University Utrecht
+  title: student assistant
+  description: NEEDS TRANSLATING  Doceren van cursussen computergebruik en computergestuurd meten.
+  show: false

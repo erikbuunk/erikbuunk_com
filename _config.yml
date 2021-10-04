@@ -1,3 +1,9 @@
+# permalink: pretty
+
+theme: jekyll_patternbot
+
+name: Home of Erik Buunk
+
 collections:
   authors:
     output: true
@@ -17,6 +23,5 @@ defaults:
       path: ""
     values:
       layout: "default"
-
-url: erikbuunk.github.io
-baseurl: /erikbuunk_com
+# url: erikbuunk.github.io
+# baseurl: "/erikbuunk_com"

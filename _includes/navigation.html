@@ -1,5 +1,47 @@
-<nav>
-    {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}class="current" {% endif %}>{{ item.name }}</a>
-    {% endfor %}
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+
+    <div class="navbar-brand">
+        <a class="navbar-brand" href="/index.html"><img src="/assets/images/logo.svg" alt="Logo">Erik</a>
+    </div>
+
+    <!-- Hamburger menu -->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01"
+        aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarColor01">
+
+        <ul class="navbar-nav mr-auto">
+            {% for item in site.data.navigation %}
+            {% if page.url == item.link %}
+            <li class="nav-item active">
+                <div class="nav-link">{{ item.name }}<span class="sr-only">(current)</span></div>
+            </li>
+            {% else %}
+            <li class="nav-item">
+                <a class="nav-link" href="{{ item.link }}">{{ item.name }}</a>
+            </li>
+            {% endif %}
+
+
+            {% endfor %}
+        </ul>
+
+        <!-- <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true"
+                aria-expanded="true"><i class="lang fa fa-globe"></i></a>
+            <div class="dropdown-menu" x-placement="bottom-start"
+                style="position: absolute; transform: translate3d(0px, 42px, 0px); top: 0px; left: 0px; will-change: transform;">
+                {% for item in site.data.languages %}
+                <a class="dropdown-item" href="#">{{ item.lang | upcase }}</a>
+                {% endfor %}
+            </div>
+        </div> -->
+
+        <!-- <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form> -->
+
 </nav>

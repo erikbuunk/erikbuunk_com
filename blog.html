@@ -3,11 +3,17 @@ title: Blog
 ---
 <h1>Latest Posts</h1>
 
-<ul>
+<div class="row">
+
   {% for post in site.posts %}
-    <li>
-      <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-      {{ post.excerpt }}
-    </li>
+  <div class="card border-secondary mb-3" style="max-width: 20rem;">
+    <div class="card-header">{{post.date | date: "%d.%m.%Y " }}</div>
+    <div class="card-body">
+      <h4 class="card-title"><a href="{{post.url}}">{{ post.title}}</a></h4>
+      <p class="card-text">{{ post.excerpt }} </p>
+      <button type="button" class="btn btn-primary" onclick="window.open('{{ post.url }}','_self')">Show</button>
+    </div>
+  </div>
   {% endfor %}
-</ul>
+
+</div>

@@ -1,0 +1,33 @@
+- start: 1994
+  end: 1996
+  study: Environmental Sciences, MSc
+  institute: Utrecht University
+  description: "MSc Degree: 1996"
+- start: 1991
+  end: 1994
+  study: Science, Business and Administration
+  institute: Utrecht University
+  description: >
+    Equivalent to BSc Degree;  
+    Propaedeutic Diploma with distinction: 1992
+- start: 2003
+  end: 2006
+  study: Graphic Design
+  institute: Art & Design College, Utrecht
+  description: "Diploma: 2006"
+- start: 1990
+  end: 1991
+  study: Physics
+  institute: University of Amsterdam
+  show: false
+- start: 1989
+  end: 1990
+  study: Highschool Exchange
+  institute: Hot Springs Highschool, AR, USA
+  description: "Diploma: 1990"
+- start: 1983
+  end: 1989
+  study: Highschool
+  institute: de Bouwmeester
+  description: "Diploma: 1989"
+  show: false

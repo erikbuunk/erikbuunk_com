@@ -1,0 +1,30 @@
+- lang: nl
+  label: Dutch
+  level: Native language
+  icon: 🇳🇱
+  value: 5
+  show: true
+- lang: en
+  label: English
+  icon: 🇺🇸
+  level: Full professional proficiency
+  value: 4
+  show: true
+- lang: de
+  label: German
+  icon: 🇩🇪
+  value: 3
+  level: Basic communication skills (B2 level)
+  show: true
+- lang: es
+  label: Spanish
+  icon: 🇪🇸
+  level: Basic communication skills (B1 certificate)
+  show: true
+  value: 2
+- lang: fr
+  label: French
+  icon: 🇫🇷
+  level: Basic knowledge
+  value: 1
+  show: false

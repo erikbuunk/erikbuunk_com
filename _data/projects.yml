@@ -1,0 +1,102 @@
+- employer: Institute for Quantitative Social Sciences (IQSS), Harvard University
+  url: iq.harvard.edu
+  description: The IQSS (​link​) is the largest interdisciplinary social science research center at Harvard University. The institute offers access for social scientists to technological resources and helps them learn how to use them. IQSS also houses and develops many faculty-led scientific programs, software and systems tools designed to facilitate research and the use of large datasets
+  projects:
+    - name: Research Computing
+      url: https://scholar.harvard.edu/sid
+      description: The​ IQSS portal for cloud-based research computing​ ​(​link​) aims to make it easy for researchers to make a seamless transition from doing the calculations on their laptop to using cloud-based computing resources. It provides level 3 security data storage, which is essential in the social sciences where private personal data is extensively used.
+      role: ​For this project,Ianalyzedtheusageofthecurrentresearchcomputingclusterto determine types of use and which applications were used. I then used this to determine the steps needed to transfer the current users to the new Sid environment. Currently, I am helping researchers to transition to the new environment and I do usability tests on the first version of the new environment to propose future improvements. I am also working with the project manager and board to develop a long-term roadmap.
+      enjoy: What I enjoy most​ in this project is interacting directly with the scientists and learning what is needed to improve the product further, brainstorm about future development, prioritize the future steps to be taken. I also enjoy looking for collaborations with other universities to be more efficient in the services we can offer. For this I visited the supercomputing conference SC19 in Denver, Co in November 2019.
+      date: 2019-2020
+    - name: ShariaSource Portal and StackLife
+      url: https://pil.law.harvard.edu/shariasource-portal/
+      description: The ​SHARIA source project​ ​ is part of an ambitious multi-million-dollar program led by Prof. Dr. I. Rabb (Harvard Law School) that aims to collect the worlds’ information on Islamic law and history and promote new research using data science and artificial Intelligence.
+      role: M​y role in this project is overall technical project management, including the development of a roadmap and vision for long term sustainability of the platform, design of a product breakdown, planning and cost estimates and recruitment of an external company that will help with building the software tools.
+      enjoy: What I enjoy most​ in this project is doing the high-level technical analysis, describing the needs and wishes of the researchers that want to develop this tool and translating it into a technical road map.
+      date: 2019-2020
+    - name: Metrics Dashboard for IQSS website
+      description: ​The ​homepage of IQSS​ contains a section with metrics of the institute and the department. The current version of the metrics pages involves a lot of manual labor and lacks visual unity. The numbers and graphs are all static and often only available in PDF format. The goal is to make the metrics dynamic and automated.
+      role: In cooperation with the directors, choose a platform and implement a (semi) automated dashboard on the website.
+      enjoy: What I enjoy most​ is the hands-on approach. Up to now it was hard to make progress on this project. I have chosen to develop the dashboard (intitially) in R Shiny that makes fast development possible. I also like to collaborate with the directors to define the metrics that are suitable for a broader audience but can also easily be obtained and automated.
+      date: 2020
+    - name: AHEAD
+      # url: https://aheadarchive.com/
+      description: The​ ​Automated History Archive​ l​ ed by Prof. dr. M. Dell (Economics Dept.) is a Harvard initiative to automate the conversion of image scans of historical quantitative publications into classified, machine-readable data models so these numbers can be used in further research. Machine learning algorithms and a web portal for data curation and research are developed.
+      role: ​I​ actasaninterfacebetweenthecontractorandtheIQSSDataverseteam,which is the team responsible for the open-source research data repository and associated software.
+      enjoy: What I enjoy most​ in this project is the interaction with an offshore contractor, which requires telecons and an efficient kind of communication and interaction. I also feel that this project is very valuable and useful as the challenges we encounter when digitizing documents are related to recognizing structure in page layout. This is something that has not been solved yet in commercial optical character recognition software and is necessary for many digitization projects with many applications.
+      date: 2020
+    - name: Open Source Health Index
+      description: We are working on the development of a quantitative metric to determine how healthy an open-source project is which can be used by researchers to decide which data to use or for the project where they can improve.
+    - name: Visualization of the homepage of Dataverse, the open science data repository.
+      show: false
+- employer: Security Region/Fire fighters (VRU)
+  url: vru.nl
+  show: false
+  description: This is a regional governmental organization responsible for the safety of all people who are or live in the region. This includes the fire department, but also a crisis management center that will become active in case of a larger region-wide emergency.
+  role: In this organization, my responsibilities included account, network and information management, development of business intelligence.
+  projects:
+    - name: Business Intelligence
+    - name: CRM
+    - name: Vijfheerenlanden
+    - name: Brandweer coach
+    - name: Omgevingswet
+    - name: digitale planvorming
+    - name: NIM
+    - name: onderzoek MOI
+    - name: empowerment medewerkers, kleine stapjes
+    - name: accountmanagment voor GHOR,
+- employer: Municipality of Amersfoort
+  projects:
+    - name: Demand manager
+      description: "(NL)In rol van demand manager regel ik de projecten klantvragen voor de afdelingen binnen mijn domein: Facilitair, Juridisch, P&O, Financiën, ICT"
+    - name: Insourcing IT (SBG)
+      desciption: "As a consultant I was responsible for technical side of the insourcing activities. The IT was insourced from an external party to the municipality. Number of employees: 80. Yearly budget €300K."
+      date: 2015-2016
+    - name: IT services for Social Teams
+      description: Responsible for delivering IT Service to 10 new Social Teams in the city. Services included desktop and mobile device, user support, education of around 180 employees.  Budget around €100K. In 2016 as consultant further developer.
+      date: 2014 and 2016
+    - name: FMIS
+      description: Aanbesteding en implementatie van het nieuwe facilitair management informatie systeem. Bij de aanbesteding betrokken als technisch adviseur en tijdens de uitvoering verantwoordelijk voor realisatie van de koppelvlakken.
+      date: 2015
+    - name: Smartphone replacement
+      description: "He manages a project team of 6 people that is responsible for implementation and replacement of mobile devices (tablets/smartphones) within the organization and the  specification and documentation of protocols process guidelines. Responsible for replacement of around 350 smartphones, including instructions, communication, development new processes. Budget: €70K. "
+      date: 2013 2014
+    - name: SVG-BGT, external consulting
+      description: He advised in the requirement specifications for a large nation-wide software system allowing access, interaction and updates of geographical and topographical maps. [September 2012 present]
+    - name: Analysis of application portfolio
+      description: He collected and analysed data for the 350 software applications to evaluate the business value and costs in support of IT investment decisions, using the guidelines of Gartner (a world leading IT research and advisory company). (B) I performed analysis on the current portfolio of software applications used (around 350 programs used by 800 employees.). Analysis included gathering new data, pareto analysis, maturity statistics and advice for a reduced application landscape.
+      date: May 2012 March 2013
+    - name: IT Benchmark
+      description: In collaboration with Gartner, data gathering and analysis of IT cost for FY2013
+      date: 2014
+    - name: Organizational Change
+      description: "Member of the leading coalition to prepare and implement change in organization and culture of the IT department. Responsible for the data analysis of resource occupation and flexible use of internal and external resources. Size of department: 70 employees."
+    - name: Sharepoint upgrade
+      description: "As project manager responsible for the complete upgrade op the SharePoint upgrade to version 2013. I used Scrum method to keep track of the activities. Activities: technical platform, functional upgrade, user instruction with short videos, communication. Reach: 1050 employees, 50K"
+      date: 2015
+    - name: Technical upgrage website amersfoort.nl
+      description: "He lead a team of 5 people to formulate the specification and implementation of the technical infrastructure of the organization’s website  (servers, database, network domains, load balancing, backup) and to implement the software (content management system) following a systematic business process breakdown method, “the DTAP roadmap”, to monitor the Development, Test Acceptance and Production stages.  (B) As team manager I realized a new hardware platform for the internally hosted website of the city of Amersfoort. This included new web and database servers, network load balancing and installation of software on the platform. Budget: €40K (hardware, external resources)"
+      date: 2013
+    - name: Process IT hardware
+      description: As a Lean Six Sigma Greenbelt a lead a team to optimize the process of ordering hardware. The process is used by 800 employees.
+      date: 2014
+- employer: Amersfoort/i-adviseur
+  projects:
+    - name: CRM
+    - name: upgrade GWS
+    - name: account management
+  show: false
+- employer: Amersfoort/geo
+  projects:
+    - name: GeoPoort
+  show: false
+- employer: Bentley/ISIS
+  projects:
+    - name: Bestemmingsplannen
+    - name: FlexiWeb
+    - name: Consultancy gemeenten
+  show: false
+- employer: ISIS Benelux BV
+  show: false
+- employer: Holland Railconsult BV
+  show: false

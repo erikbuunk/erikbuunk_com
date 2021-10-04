@@ -1,0 +1,32 @@
+---
+title: Projects
+layout: default
+---
+
+
+<h3>Recent Projects</h3>
+
+{% for item in site.data.projects %} {% if item.show != false %}
+<div class="row">
+    <div class="col-md-4">
+        <h5>{{item.employer}}&nbsp;{{item.label}}</h5>
+        <!-- <p>{{item.description}}</p> -->
+
+    </div>
+    <div class="col-md-8">
+        <ul>
+
+            {% for project in item.projects %}
+            {% if project.show != false %}
+            <li class="project_item"><span class="project_name">{{project.name}}</span>: {{project.description}}
+                <br>
+                {{project.role}}
+                <br>
+                <!-- <span class="my_role">What I enjoy: </span>{{project.enjoy}} -->
+            </li>
+            {% endif %} {% endfor %}
+        </ul>
+
+    </div>
+</div>
+{% endif %} {% endfor %}

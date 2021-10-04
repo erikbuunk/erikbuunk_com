@@ -1,0 +1,12 @@
+# - name: Website
+#   value: www.erikbuunk.com
+#   icon: fa fa-home
+- name: Phone
+  value: ‭+49 157 33369319
+  icon: fa fa-phone-alt
+- name: E-mail
+  value: erik.buunk@gmail.com
+  icon: fa fa-envelope
+- name: Social Media
+  value: www.linkedin.com/in/erikbuunk
+  icon: fab fa-linkedin
